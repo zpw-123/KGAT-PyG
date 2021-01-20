@@ -25,10 +25,10 @@ If you want to use codes and datasets in your research, please contact the paper
 ## Environment Requirement
 The code has been tested running under Python 3.6.9. The required packages are as follows:
 * torch == 1.7.0
-* numpy == 1.15.4
-* pandas == 0.23.1
-* scipy == 1.1.0
-* sklearn == 0.20.0
+* numpy == 1.19.5
+* scipy == 1.4.1
+* sklearn == 0.22.2
+
 For an installation guide of Pytorch Geometric see [here](https://pytorch-geometric.readthedocs.io/en/latest/notes/installation.html).
 
 ## Run the Codes
