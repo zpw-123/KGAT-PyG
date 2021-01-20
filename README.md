@@ -42,7 +42,8 @@ python main.py --cf_batch_size 10240 --ckg_batch_size 2048 --Ks [20,100]
 ```
 python main.py --model_type Linear --cf_batch_size 10240 --ckg_batch_size 2048 --Ks [20,100]
 ```
-We achieve the similar results with around 30% time improvement using one Tesla P100. One training step takes 140s, one evaluation step takes 55s.
+We achieve the similar results with around 30% time improvement using one Tesla P100.<br>
+One training step takes 140s, one evaluation step takes 55s.
 
 ## Further ToDo's
 * Add SparseTensor support. This will further improve the speed of the method
