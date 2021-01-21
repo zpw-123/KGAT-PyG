@@ -34,7 +34,7 @@ For an installation guide of Pytorch Geometric see [here](https://pytorch-geomet
 ## Run the Codes
 
 In order to get similar [results](https://github.com/xiangwang1223/knowledge_graph_attention_network/blob/master/Log/training_log_last-fm.log) as the authors for the last-fm dataset you can run
-* KGAT (Parameter/Bias Version) – around 1 minute faster
+* KGAT (Parameter/Bias Version) – around 1 minute faster then the Liner Layer Version
 ```
 python main.py --cf_batch_size 10240 --ckg_batch_size 2048 --Ks [20,100]
 ```
@@ -42,7 +42,7 @@ python main.py --cf_batch_size 10240 --ckg_batch_size 2048 --Ks [20,100]
 ```
 python main.py --model_type Linear --cf_batch_size 10240 --ckg_batch_size 2048 --Ks [20,100]
 ```
-We achieve the similar results with around 30% time improvement using one Tesla P100.<br>
+We achieve the similar results with around 15% time improvement using one Tesla P100.<br>
 One training step takes 140s, one evaluation step takes 55s.
 
 ## Further ToDo's
